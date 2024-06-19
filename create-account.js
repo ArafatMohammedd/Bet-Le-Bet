@@ -35,8 +35,8 @@ signupForm.addEventListener('submit', (event) => {
 
   if (isValid) {
     // Simulate successful sign-up (no actual data processing)
-    window.open("/Body Page/body.html", "_blank"); // Replace "/folder" with the actual folder path
+    window.location.href = "body.html"; // Replace "/folder" with the actual folder path
     // Optionally, you can open the confirmation page here using window.open()
-    // window.open("confirmation.html", "_blank"); 
+    // window.open("confirmation.html"); 
   }
 });
