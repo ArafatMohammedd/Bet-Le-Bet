@@ -14,12 +14,11 @@
             <div class="main">
                 <div class="content">
                     <h2>Log In</h2>
-                    <form action="#" method="post">
-                        <input type="text" name="name" placeholder="User Name" required >
-                        <input type="password" name="password" placeholder="User Password" required >
-                        <a href="body.html"><button class="btn">
-                            Log In 
-                         </button></a>
+                   <form method="post" id="signup-form">
+                        <input type="email" id="email" name="email" placeholder="Email">
+                        <input type="password" id="password" name="password" placeholder="Enter Password">
+                        <button class="btn" type="submit">Log In</button>
+
                     </form>
                     <p class="account" style="color: black;">Register <a href="creat-new-acc.html">as Freelancer</a> Or 
                         <a href="creat-new-acc.html">as Client</a> </p>
@@ -31,5 +30,8 @@
             </div>
         </div>
     </div>
+    
+    <script src="log-in.js"></script>
+    
 </body>
 </html>
