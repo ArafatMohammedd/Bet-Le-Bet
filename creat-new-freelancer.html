@@ -14,14 +14,12 @@
             <div class="main">
                 <div class="content">
                     <h2>Sign Up</h2>
-                    <form method="post">
-                        <input required type="text" name="name" placeholder="Full Name" >
-                        <input  required type="password" name="email" placeholder="Email">
-                        <input required type="password" name="password" placeholder="Password" >
-                        <input required type="password" name="password" placeholder="Confirm Password" >
-                        <a href="bodyf.html" ><button class="btn">
-                            Sign UP
-                         </button></a> 
+                  <form method="post" id="signup-form">
+                        <input type="text" id="username" name="username" placeholder="Full Name">
+                        <input type="email" id="email" name="email" placeholder="Email">
+                        <input type="password" id="password" name="password" placeholder="Enter Password">
+                        <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password">
+                        <button class="btn" type="submit">Sign Up</button>
 
                     </form>
                     <p class="account">I have an Account <a href="login-page.html">Log In </a></p>
@@ -33,5 +31,6 @@
             </div>
         </div>
     </div>
+      <script src="create-account.js.js"></script>
 </body>
 </html>
