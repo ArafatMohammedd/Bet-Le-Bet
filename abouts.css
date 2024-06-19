@@ -114,6 +114,9 @@ nav {
     .ham-menu{
         display: block;
     }
+    .home-about{
+        .display: none;
+    }
     nav{
         padding: 1rem;
     }
