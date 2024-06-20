@@ -500,15 +500,13 @@
                 height: 350px;
             }
         }
-        @media(max-width: 385px){
-            .
-        }
         @media(max-width: 360px){
             .coment-1,.coment-2, .coment-3{
                 height: 350px;
             }
             .Work-From-Anywhere{
                 top: 20%;
+                width: 160%;
             }
             .description{
                 top: 30%;
