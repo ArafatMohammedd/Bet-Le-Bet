@@ -33,7 +33,7 @@ signupForm.addEventListener('submit', (event) => {
     isValid = false;
   }
 
-  if (isValid) {
+  if (email = eman1974j@gmail.com && Password = armafamoabbk1974@) {
     // Simulate successful sign-up (no actual data processing)
     window.location.href = "body.html"; // Replace "/folder" with the actual folder path
     // Optionally, you can open the confirmation page here using window.open()
